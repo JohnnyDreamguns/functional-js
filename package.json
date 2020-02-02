@@ -1,0 +1,28 @@
+{
+  "name": "functional-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "query-selector": "babel-node ./src/querySelector.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnnyDreamguns/functional-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnnyDreamguns/functional-js/issues"
+  },
+  "homepage": "https://github.com/JohnnyDreamguns/functional-js#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.4",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  },
+  "dependencies": {
+    "ramda": "^0.27.0"
+  }
+}
